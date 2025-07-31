@@ -36,7 +36,6 @@ h1, h2 {
 }
 
 footer {
-  display:flex ;
   background-color: #333;
   color: #ddd;
 }
@@ -82,6 +81,8 @@ header{
 #sec_ctd{
   justify-content: center;
   margin-right: 550px;
+  list-style: none;
+  text-decoration:none;
 }
 h1{
   text-align: right;
@@ -90,9 +91,10 @@ h1{
 #sec_ctd p{
   text-align: justify;
   margin-bottom: 85px;
-
+  margin-right: 70px;
+  list-style: none;
+  text-decoration:none;
 }
-
 #second img{
   width: 200px;
   margin: 40px;
@@ -104,11 +106,45 @@ h1{
 }
 #contato{
   display: flex ;
-  flex-direction:row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items:center;
 }
 #contato a{
   color: #fff;
+}
+#social img{
+  width: 30px;
+  height: 30px;
+}
+#descricao{
+  width: 500px;
+  padding: 50px ;
+  border: 1px solid;
+  margin:80px;
+}
+
+#acesso {
+  padding: 20px;
+  box-shadow: 0 4px 20px rgb(0, 0, 0);
+  border-radius: 6px;
+  text-align: center;
+}
+#acesso img{
+  width: 30px;
+}
+.f{
+  text-align: center;
+}
+.f a{
+  list-style: none;
+  text-decoration:none;
+  font-family: 'Amatic SC';
+}
+
+section .l{
+  list-style: none;
+  text-decoration:none;
+  font-family: 'Amatic SC';
+  color:#fff;
 }
 
