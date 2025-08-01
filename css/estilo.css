@@ -75,12 +75,12 @@ header{
   align-items: center;
 }
 #principal img{
-  width: 200px;
+  width: 270px;
   margin-left: 400px;
 }
 #sec_ctd{
   justify-content: center;
-  margin-right: 550px;
+  margin-right: 320px;
   list-style: none;
   text-decoration:none;
 }
@@ -91,7 +91,8 @@ h1{
 #sec_ctd p{
   text-align: justify;
   margin-bottom: 85px;
-  margin-right: 70px;
+  margin-right: 50px;
+  margin-top:40px;
   list-style: none;
   text-decoration:none;
 }
